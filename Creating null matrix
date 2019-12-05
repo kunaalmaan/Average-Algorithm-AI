@@ -1,6 +1,7 @@
 def null(a,b):
  c=[]
  i=0
+ var=1
  while i<a:
   c.append([0])
   j=1
