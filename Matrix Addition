@@ -1,0 +1,17 @@
+def sum(a,b):
+ ra=len(a)
+ ca=len(a[0])
+ rb=len(b)
+ cb=len(b[0])
+ c=a
+ i=0
+ j=0
+ while i<ra:
+  while j<ca:
+   c[i][j]=a[i][j]+b[i][j]
+   j+=1
+  j=0
+  i+=1
+ return(c)
+
+
