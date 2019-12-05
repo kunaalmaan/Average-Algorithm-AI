@@ -1,0 +1,13 @@
+def scale(n,a):
+ ra=len(a)
+ ca=len(a[0])
+ i=0
+ j=0
+ while i<ra:
+  while j<ca:
+   a[i][j]*=n
+   j+=1
+  j=0
+  i+=1
+ return(a)
+
